@@ -10,7 +10,7 @@ Follow these steps to get the project running on your local machine:
 
 1.  **Clone the Repository**:
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/ayushupadhyay22/dbt-demo.git
     cd dbt-demo
     ```
 
