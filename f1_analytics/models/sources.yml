@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw_f1
+    meta:
+      external_location: "../data/{name}.csv"
+    tables:
+      - name: f1_2024_constructor_standings
+      - name: f1_2024_driver_standings
+      - name: f1_2024_race_results
+      - name: f1_circuits_metadata
+      - name: f1_historical_drivers
+      - name: f1_qualifying_results_2024

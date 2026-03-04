@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_race_results
+    columns:
+      - name: race_id
+        tests:
+          - not_null
+      - name: driver_name
+        tests:
+          - not_null
+
+  - name: mart_driver_performance
+    columns:
+      - name: driver_name
+        tests:
+          - not_null
+          - unique
+      - name: total_points
+        tests:
+          - not_null

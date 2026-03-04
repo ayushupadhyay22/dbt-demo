@@ -1,0 +1,9 @@
+f1_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'f1_data.duckdb'
+      extensions:
+        - httpfs
+        - parquet

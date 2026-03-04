@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Local documentation
+project_architecture.md
+
+# dbt specific
+f1_analytics/target/
+f1_analytics/dbt_packages/
+f1_analytics/logs/
+f1_analytics/*.duckdb
+
+# Project Data
+data/
